@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #5449f0;
+    --secondary-color: #353535;
+    
+    --cons-white: #e3e3e3;
+    --cons-black: #161616;
+
+    --light-background: #f1f1f1;
+    --dark-background: #121118;
+}
+
+body.theme {
+    &-dark {
+        --background-color: var(--dark-background);
+
+        --white: var(--cons-black);
+        --black: var(--cons-white);
+    }
+
+    &-light {
+        --background-color: var(--light-background);
+
+        --white: var(--cons-white);
+        --black: var(--cons-black);
+    }
+}
+
+$primary-color:  var(--primary-color);
+$secondary-color: var(--secondary-color);
+$background-color: var(--background-color);
+
+$white: var(--white);
+$black: var(--black);
+
+$cons-white: var(--cons-white);
+$cons-black: var(--cons-black);
+
+
+$breakpoints: (
+    "small": 577px,
+    "medium": 768px,
+    "large": 992px,
+    "xlarge": 1200px,
+    "xxlarge": 1400px,
+) !default;

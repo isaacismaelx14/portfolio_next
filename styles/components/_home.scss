@@ -1,0 +1,105 @@
+.home {
+    color: $black;
+    height: 100vh;
+    width: 100%;
+
+    @include breakpoints("medium") {
+        background: $primary-color;
+        color: $cons-white;
+        height: remCalc(300px);
+        width: 100%;
+    }
+
+    &__container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: remCalc(10px);
+        height: 80%;
+        justify-content: center;
+        
+        @include breakpoints("medium") {
+            height: 100%;
+        }
+
+        &--top {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 1100px;
+            
+            @include breakpoints("medium") {
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                width: 90%;
+            }
+        }
+
+        &--bottom {  
+            @include breakpoints("medium") {
+                display: none;
+            }
+        }
+    }
+
+    &__img {
+        border: remCalc(4px) solid $primary-color;
+        border-radius: 50%;
+        margin-bottom: remCalc(5px);
+        width: remCalc(150px);
+
+        @include breakpoints(medium) {
+            border: 0;
+            margin-bottom: 0;
+            width: remCalc(200px);
+        }
+    
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    &__text {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-size: remCalc(18px);
+        width: 100%;
+        
+        @include breakpoints(medium) {
+            align-items: flex-start;
+            flex-direction: column-reverse;
+            font-size: remCalc(22px);
+        }
+
+        &--subtitle {
+            font-size: 1em;
+        }
+
+        &--title {
+            align-items: center;
+            display: flex;
+            font-size: 2em;
+            gap: remCalc(5px);
+
+            ._simbol {
+                color: $primary-color;
+                font-size: 0.9em;
+                font-weight: bold;
+                letter-spacing: remCalc(-2px);
+
+                @include breakpoints(medium) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        gap: remCalc(10px);
+        justify-content: center;
+        width: 100%;
+    }
+}

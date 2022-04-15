@@ -1,0 +1,41 @@
+{
+  "firstname": "isaac",
+  "midname": "ismael",
+  "first_lastname": "martinez",
+  "second_lastname": "medrano",
+  "email": "isaacismaelx14@gmail.com",
+  "languages": ["es", "en"],
+  "skills": [
+    "Self-learner",
+    "Team-player",
+    "Problem-solver",
+    "Knowledge in Backend and Frontend",
+    "Intermediate knowledge in database management & server management",
+    "Windows and Linux administration",
+    "Photoshop, Premiere pro (photo and video edition)",
+    "Illustrator & Corel Draw (Basic Knowledge)",
+    "bilingual (Spanish and English)"
+  ],
+  "technologies": [
+    {
+      "name": "HTML",
+      "percentage": 99.9
+    },
+    {
+      "name": "CSS",
+      "percentage": 99.9
+    },
+    {
+      "name": "Javascript",
+      "percentage": 99.9
+    },
+    {
+      "name": "ReactJS",
+      "percentage": 98.9
+    },
+    {
+      "name": "NodeJS",
+      "percentage": 85
+    }
+  ]
+}

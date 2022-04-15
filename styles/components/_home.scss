@@ -2,7 +2,6 @@
     color: $black;
     height: 100vh;
     width: 100%;
-
     @include breakpoints("medium") {
         background: $primary-color;
         color: $cons-white;
@@ -17,9 +16,15 @@
         gap: remCalc(10px);
         height: 80%;
         justify-content: center;
-        
+        margin: auto;
+        max-width: 600px;
+
         @include breakpoints("medium") {
             height: 100%;
+        }
+        
+        @include breakpoints("large") {
+            max-width: 100%;
         }
 
         &--top {
@@ -49,10 +54,14 @@
         margin-bottom: remCalc(5px);
         width: remCalc(150px);
 
-        @include breakpoints(medium) {
+        @include breakpoints("medium") {
             border: 0;
             margin-bottom: 0;
-            width: remCalc(200px);
+            width: remCalc(180px);
+        }
+
+        @include breakpoints("large") {
+            width: remCalc(230px);
         }
     
         img {
@@ -67,11 +76,16 @@
         font-size: remCalc(18px);
         width: 100%;
         
-        @include breakpoints(medium) {
+        @include breakpoints("medium") {
             align-items: flex-start;
             flex-direction: column-reverse;
-            font-size: remCalc(22px);
+            font-size: remCalc(20px);
         }
+
+        @include breakpoints("large") {
+            font-size: remCalc(24px);
+        }
+                
 
         &--subtitle {
             font-size: 1em;
@@ -89,7 +103,7 @@
                 font-weight: bold;
                 letter-spacing: remCalc(-2px);
 
-                @include breakpoints(medium) {
+                @include breakpoints("medium") {
                     display: none;
                 }
             }

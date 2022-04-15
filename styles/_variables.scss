@@ -35,11 +35,12 @@ $black: var(--black);
 $cons-white: var(--cons-white);
 $cons-black: var(--cons-black);
 
+$content-max-width: remCalc(1100px);
 
 $breakpoints: (
     "small": 320px,
     "medium": 481px,
-    "large": 992px,
+    "large": 1024px,
     "xlarge": 1200px,
     "xxlarge": 1400px,
 ) !default;

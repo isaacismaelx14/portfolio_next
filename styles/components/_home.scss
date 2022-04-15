@@ -2,6 +2,7 @@
     color: $black;
     height: 100vh;
     width: 100%;
+
     @include breakpoints("medium") {
         background: $primary-color;
         color: $cons-white;
@@ -22,7 +23,7 @@
         @include breakpoints("medium") {
             height: 100%;
         }
-        
+
         @include breakpoints("large") {
             max-width: 100%;
         }
@@ -32,12 +33,17 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            max-width: 1100px;
+            max-width: $content-max-width;
             
             @include breakpoints("medium") {
                 flex-direction: row-reverse;
                 justify-content: space-between;
                 width: 90%;
+            }
+
+            @include breakpoints("large") {
+                padding: 0 remCalc(25px);
+                width: 100%;
             }
         }
 

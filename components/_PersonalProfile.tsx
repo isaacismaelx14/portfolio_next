@@ -3,8 +3,8 @@ function PersonalProfile() {
     <>
       <h2>Personal Profile</h2>
       <p>
-        I&apos;m a man who loves computer science, from a very young age I fell
-        in love with computer programming I started with my first computer
+        I&apos;m a person who loves computer science, from a very young age I
+        fell in love with computer programming I started with my first computer
         language at 12 years old, it was c# and now with Web Technologies. Also,
         I have knowledge of customer support because I have been working in the
         family business since a very young age.

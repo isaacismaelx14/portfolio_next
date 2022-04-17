@@ -1,6 +1,5 @@
 import PersonalProfile from "./_PersonalProfile";
 import Skills from "./_Skills";
-import Technologies from "./_Technologies";
 
 function AboutMe() {
   return (
@@ -13,7 +12,7 @@ function AboutMe() {
           <Skills />
         </div>
       </div>
-      <Technologies />
+
     </section>
   );
 }

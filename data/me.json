@@ -18,28 +18,57 @@
   ],
   "technologies": [
     {
-      "name": "HTML",
-      "percentage": 99.9
+      "name": "HTML"
     },
     {
-      "name": "CSS",
-      "percentage": 99.9
+      "name": "CSS"
     },
     {
-      "name": "JavaScript",
-      "percentage": 99.9
+      "name": "JavaScript"
     },
     {
-      "name": "React",
-      "percentage": 98.9
+      "name": "Typescript"
     },
     {
-      "name": "Typescript",
-      "percentage": 99.9
+      "name": "Python"
     },
     {
       "name": "NodeJs",
-      "percentage": 85
+      "title": "Node.Js"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Vue"
+    },
+    {
+      "name": "Nextjs",
+      "title": "Next.Js"
+    },
+    {
+      "name": "Electron"
+    },
+    {
+      "name": "Express"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Mysql",
+      "title": "MySQL"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "Windows"
+    },
+
+    {
+      "name": "Terminal",
+      "title": "Bash/Terminal"
     }
   ]
 }

@@ -4,9 +4,8 @@ const ReactIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 225 225"
-    style={{ fill: "#000" }}
-    width="1em"
-    height="1em"
+    style={{ fill: "#000", padding: "10px" }}
+
     {...props}
   >
     <g

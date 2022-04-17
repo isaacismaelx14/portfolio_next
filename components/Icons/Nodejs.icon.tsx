@@ -2,8 +2,6 @@ import { SVGProps } from "react";
 
 const NodejsIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width="1em"
-    height="1em"
     viewBox="0 -183.5 512 512"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMinYMin meet"

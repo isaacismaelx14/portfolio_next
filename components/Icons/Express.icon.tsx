@@ -1,16 +1,8 @@
-import React from "react";
-
 function ExpressIcon(props: any) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="1em"
-      height="1em"
-      viewBox="0 0 465 141"
-      {...props}
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465 141" {...props}>
       <g
-        stroke="#000000"
+        stroke="var(--black)"
         strokeWidth={30}
         strokeLinecap="round"
         strokeLinejoin="round"

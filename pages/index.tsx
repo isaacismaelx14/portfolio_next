@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import AboutMe from "../components/AboutMe";
 import Home from "../components/Home";
+import Projects from "../components/Projects";
 import Technologies from "../components/Technologies";
 
 const Main: NextPage = () => {
@@ -9,6 +10,9 @@ const Main: NextPage = () => {
       <Home />
       <AboutMe />
       <Technologies />
+      <div className="container">
+        <Projects />
+      </div>
     </main>
   );
 };

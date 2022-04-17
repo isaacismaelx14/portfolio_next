@@ -1,7 +1,7 @@
 function PersonalProfile() {
   return (
     <>
-      <h2>Personal Profile</h2>
+      <div className="title-p"><h2>Personal Profile</h2></div>
       <p>
         I&apos;m a person who loves computer science, from a very young age I
         fell in love with computer programming I started with my first computer
@@ -22,10 +22,13 @@ function PersonalProfile() {
         h2 {
           color: var(--black);
         }
+        .title-p{
+          width: 100%;
+        }
 
         h2 {
           font-size: 1.7rem;
-          text-align: center;
+          text-align: left;
         }
 
         p {

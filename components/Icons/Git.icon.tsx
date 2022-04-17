@@ -6,6 +6,7 @@ const GitIcon = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     preserveAspectRatio="xMidYMid"
+    style={{ padding: "10px" }}
     {...props}
   >
     <g>

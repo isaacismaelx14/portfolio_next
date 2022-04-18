@@ -1,3 +1,12 @@
+#wave-home {
+    display: none;
+    
+    @include breakpoints("medium") {  
+        display: block;
+    }
+}
+
+
 .home {
     color: $black;
     height: 100vh;
@@ -7,6 +16,7 @@
         background: $primary-color;
         color: $cons-white;
         height: remCalc(300px);
+        margin-bottom: -3px;
         width: 100%;
     }
 
@@ -18,7 +28,7 @@
         height: 80%;
         justify-content: center;
         margin: auto;
-        max-width: 600px;
+        max-width: $content-max-width;
 
         @include breakpoints("medium") {
             height: 100%;
@@ -33,7 +43,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            max-width: $content-max-width;
+            max-width: $content-max-width-large;
             
             @include breakpoints("medium") {
                 flex-direction: row-reverse;

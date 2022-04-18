@@ -8,12 +8,12 @@
 
     &__container {
         margin: 0 auto;
-        max-width: 600px;
+        max-width: $content-max-width;
         padding: remCalc(10px 25px);
         width: 100%;
 
         @include breakpoints("large") {
-            max-width: $content-max-width;
+            max-width: $content-max-width-large;
         }   
     }
 

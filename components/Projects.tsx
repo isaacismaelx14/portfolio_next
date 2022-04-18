@@ -38,7 +38,7 @@ function Projects() {
                 </h2>
             </div>
             <Suspense fallback={<ProjectListSkeleton />}>
-                {showC && <ReactLazy />}
+                {showC ? <ReactLazy /> : <ProjectListSkeleton />}
             </Suspense>
         </section>
     );

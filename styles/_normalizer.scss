@@ -13,5 +13,6 @@ body {
 
 body {
     background-color: $background-color;
+    overflow-x: hidden;
     transition: background-color 0.5s ease;
 }

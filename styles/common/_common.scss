@@ -1,10 +1,10 @@
 .container {
     margin: 0 auto;
-    max-width: remCalc(600px);
+    max-width: $content-max-width;
     padding: remCalc(10px 25px);
 
     @include breakpoints("large") {
-        max-width: $content-max-width;
+        max-width: $content-max-width-large;
     }   
 
     .title {

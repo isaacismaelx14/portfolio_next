@@ -7,7 +7,7 @@
     &__list {
         display: grid;
         grid-gap: remCalc(20px);
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
 
     &__item {
@@ -18,10 +18,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: remCalc(10px 20px);
+        padding: remCalc(20px 10px);
+        padding-top: remCalc(10px);
 
         &-title {
             color: $black;
+            font-size: 0.9rem;
             margin-bottom: remCalc(10px);
         }
 
@@ -33,7 +35,7 @@
         
         &-summary {
             overflow: hidden;
-            text-align: start;
+            padding: remCalc(10px 0);
         }
 
         &-buttons {

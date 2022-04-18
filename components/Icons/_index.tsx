@@ -16,26 +16,30 @@ import Windows from "./Windows.icon";
 import Powershell from "./Powershell.icon";
 import Electron from './Electron.icon';
 import Nextjs from "./Nextjs.icon";
+import Linkedin from './Linkedin.icon';
+import GithubLetter from './GithubLetter.icon';
 
 const Icons = {
-  HTML,
-  CSS,
-  Express,
-  Github,
-  JavaScript,
-  NodeJs,
-  Python,
-  React,
-  Typescript,
-  Vue,
-  Git,
-  Mysql,
-  Linux,
-  Windows,
-  Terminal,
-  Powershell,
-  Electron,
-  Nextjs
+    HTML,
+    CSS,
+    Express,
+    Github,
+    JavaScript,
+    NodeJs,
+    Python,
+    React,
+    Typescript,
+    Vue,
+    Git,
+    Mysql,
+    Linux,
+    Windows,
+    Terminal,
+    Powershell,
+    Electron,
+    Nextjs,
+    Linkedin,
+    GithubLetter,
 };
 
 export default Icons;
